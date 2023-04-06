@@ -168,6 +168,14 @@ public class Main {
             exit(0);
         }
 
+        System.out.println("Quieres comprar más boletas?"+"\n"+" 1 •Si 2 •No");
+        int comprarmas = sc.nextInt();
+        if(comprarmas==1){
+            Main.main (null);
+        }
+        if(comprarmas>=2||comprarmas==0){
+            exit(0);
+        }
 
     }
 }

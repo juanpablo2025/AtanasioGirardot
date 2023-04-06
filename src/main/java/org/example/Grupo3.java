@@ -28,11 +28,11 @@ public class Grupo3 extends Hinchada{
         }
         if (this.getDia() == 3) {
 
-            descuento = 1.5;
+            descuento = 0.015;
         }
         if (this.getDia() == 4) {
 
-            descuento = 1.0;
+            descuento = 0.01;
         }
         return descuento;
     }
